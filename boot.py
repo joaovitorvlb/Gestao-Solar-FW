@@ -10,6 +10,7 @@ import lcd
 import i2c_lcd
 import i2c_lcd_backlight
 import i2c_lcd_screen
+import mppt
 
 
 machine.main('main.py')

@@ -34,7 +34,7 @@ cs2.value(1)
 
 SHUNT_OHMS = 0.1
 
-ina1 = INA219(shunt_ohms=SHUNT_OHMS,address=0x40, i2c=i2c)
+ina1 = INA219(shunt_ohms=SHUNT_OHMS,address=0x41, i2c=i2c)
 ina1.configure()
 
 lcd = i2c_lcd.Display(i2c=i2c)
